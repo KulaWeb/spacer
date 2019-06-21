@@ -51,7 +51,7 @@ export default {
     .search {
         display: flex;
         flex-direction: column;
-        width: 300px;
+        width: 250px;
         label {
             font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
             font-size: 18px;
