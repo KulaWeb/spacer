@@ -24,5 +24,24 @@
     padding: 0;
     color: #fff;
   }
+  .app {
+    .nav {
+      position: fixed;
+      background-color: rgba(255,255,255, .6);
+      width: 100%;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      a {
+        color: #333;
+        font-size: 17px;
+        letter-spacing: 1px;
+        padding: 10px;
+        &:last-of-type {
+          text-align: right;
+        }
+      }
+    }
+  }
 
 </style>
