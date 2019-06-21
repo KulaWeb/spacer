@@ -1,3 +1,4 @@
+<!--
 <template>
   <div class="home">
 <h1>Spacer</h1>
@@ -9,3 +10,4 @@ export default {
   name: 'home',
 };
 </script>
+-->
