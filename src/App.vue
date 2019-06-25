@@ -31,6 +31,7 @@
       width: 100%;
       height: 50px;
       display: flex;
+      z-index: 99;
       align-items: center;
       a {
         color: #333;

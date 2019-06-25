@@ -50,6 +50,7 @@ export default {
 
   },
 };
+
 </script>
 
 <style lang="scss" scoped>
@@ -65,6 +66,10 @@ export default {
     }
     .slide-enter, .slide-leave-tp {
         margin-top: -100px;
+    }
+
+    li  {
+        list-style-image: url("");
     }
     .wrapper {
         position: relative;
