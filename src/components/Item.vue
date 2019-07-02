@@ -29,10 +29,13 @@ export default {
 
 <style lang="scss" scoped>
 .item {
+    min-width: 40vw;
+    height: 250px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
-    width: 300px;
-    height: 300px;
+   @media (min-width: 768px) {
+       min-width: 25vw;
+   }
 }
 </style>

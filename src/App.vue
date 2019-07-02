@@ -44,5 +44,15 @@
       }
     }
   }
+  .result {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    @media (min-width: 768px) {
+      width: 90%;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
 
 </style>
